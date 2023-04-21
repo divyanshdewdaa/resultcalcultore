@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./std.css">
+        <script src="./std.js"></script>
+    </head>
+    <body onload="init()">
+        <h1>Result Calculaltor</h1><hr>
+        <div align="center">
+            <form>
+        <input type="number"  class="fld" id="roll" placeholder="Enter Roll Number" required>
+        <input type="text" class="fld" id="Name" placeholder="Enter Student Name" required>
+        <input type="number" class="fld" id="Maths" placeholder="Enter Marks of Maths" required>
+        <input type="number" class="fld" id="Hindi" placeholder="Enter Marks of Hindi" required>
+        <input type="number" class="fld" id="Physics" placeholder="Enter Marks of Physics" required>
+        <input type="number" class="fld" id="Chemistry" placeholder="Enter Marks of Chemistry" required>
+        <input type="number" class="fld" id="English" placeholder="Enter Marks of English" required>
+        </div>
+    </form>
+        <hr>
+         <div align="center">
+        <button class="btn" onclick="process()">Add</button>
+         </div>
+        <hr>  
+        <table border="4" cellspacing="3" cellpadding="2" width="80%" align="center">
+            <thead>
+            <tr>
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>Maths</th>
+            <th>Hindi</th>
+            <th>Physics</th>
+            <th>Chemistry</th>
+            <th>English</th>
+            <th>Total</th>
+            <th>Percentage</th>
+            <th>Result</th>
+            </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </body>
+</html>

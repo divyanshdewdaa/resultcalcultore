@@ -1,0 +1,25 @@
+h1{
+    background-image: linear-gradient(to right,red,yellow);
+    font-size: 50px;
+    color: blue;
+    text-decoration:underline ;
+    font-style: italic;
+    text-align: center;
+}
+.fld{
+ width: 350px;
+ height: 30px;
+ margin: 10px;
+ font-size:large;
+}
+.btn{
+background-color: blue;
+color: white;
+padding: 10px;
+cursor: grab;
+height: 50px;
+width: 200px;
+font-size:20px;
+
+
+}
